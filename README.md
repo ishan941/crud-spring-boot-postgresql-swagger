@@ -73,14 +73,13 @@ The application will be available at http://localhost:8080.
 
 ### Available Endpoints
 
-| ----------- | --------------------------------------- | --------------------------- |
-| HTTP Method | Endpoint | Description |
-| ----------- | --------------------------------------- | --------------------------- |
-| POST | /api/employees/create | Create Employee |
-| GET | /api/employees/getAllEmployee | Get all Employee |
-| GET | /api/employees/getEmployeeById/{id} | Get Employee By id |
-| PATCH | /api/employees/updateEmployee/{id} | Update Employee By id |
-| DELETE | /api/employee/deleteEmployee/{id} | Delete Employee By id |
+| HTTP Method | Endpoint                            | Description           |
+| ----------- | ----------------------------------- | --------------------- |
+| POST        | /api/employees/create               | Create Employee       |
+| GET         | /api/employees/getAllEmployee       | Get all Employee      |
+| GET         | /api/employees/getEmployeeById/{id} | Get Employee By id    |
+| PATCH       | /api/employees/updateEmployee/{id}  | Update Employee By id |
+| DELETE      | /api/employee/deleteEmployee/{id}   | Delete Employee By id |
 
 ## Swagger UI
 
